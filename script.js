@@ -1,6 +1,7 @@
 // Variables
 let hoverBtn = document.getElementById("hover-btn");
 let inputField = document.getElementById("input-field");
+let keyboardOutput = document.getElementById("keyboard-output");
 let focusInput = document.getElementById("focus-input");
 let delegationContainer = document.getElementById("delegation-container");
 let delegationButtonOutput = document.getElementById("delegation-btn-output");
@@ -38,6 +39,7 @@ function setupKeyboardEvents() {
   if (inputField) {
     inputField.addEventListener("keydown", function (event) {
       console.log(`Key pressed: ${event.key}`);
+      keyboardOutput.textContent = `Key pressed: ${event.key}`;
     });
   }
 }
