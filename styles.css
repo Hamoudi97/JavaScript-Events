@@ -4,7 +4,7 @@ body {
   padding: 0px;
   line-height: 1.5;
   background-color: blanchedalmond;
-  padding-bottom: 60px;
+  padding-bottom: 70px;
   font-size: 14px;
 }
 
@@ -42,10 +42,52 @@ footer {
   width: 100%;
 }
 
+#event-form {
+  padding: 20px;
+  background-color: rgb(81, 152, 214);
+  max-width: 80%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
 .form-content {
   margin-bottom: 17px;
 }
 
 #hover-btn:hover {
   cursor: pointer;
+}
+
+.form-content label {
+  font-weight: bold;
+}
+
+input[type="text"] {
+  padding: 4px;
+  border: 1px solid #302f2f;
+  border-radius: 3px;
+}
+
+#keyboard-output {
+  font-style: italic;
+}
+
+.delegation-container {
+  margin-top: 10px;
+}
+
+.delegation-btn {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #a351b0;
+  color: white;
+}
+
+#delegation-btn-output {
+  font-style: italic;
+}
+
+.delegation-btn:hover {
+  background-color: #7022a7;
 }
