@@ -45,3 +45,7 @@ footer {
 .form-content {
   margin-bottom: 17px;
 }
+
+#hover-btn:hover {
+  cursor: pointer;
+}
