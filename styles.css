@@ -1,0 +1,47 @@
+body {
+  font-family: monospace;
+  margin: 0;
+  padding: 0px;
+  line-height: 1.5;
+  background-color: blanchedalmond;
+  padding-bottom: 60px;
+  font-size: 14px;
+}
+
+.btn {
+  font-family: inherit;
+}
+
+.delegation-btn {
+  font-family: inherit;
+}
+
+h1 {
+  text-align: center;
+  background-color: #ebebeb;
+  padding: 20px;
+}
+
+h2 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+  position: fixed;
+  padding: 10px;
+  bottom: 0;
+  width: 100%;
+  background-color: #ebebeb;
+  padding: 10px;
+}
+
+#event-form {
+  padding: 10px;
+  background-color: rgb(81, 152, 214);
+  width: 100%;
+}
+
+.form-content {
+  margin-bottom: 17px;
+}
